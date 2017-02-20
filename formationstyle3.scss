@@ -1,0 +1,250 @@
+* {
+  box-sizing: border-box; }
+@font-face {
+  font-family: 'quadranta';
+  src: url("quadranta.eot");
+  src: url("quadranta.otf") format("truetype"), url("quadranta.woff") format("woff"), url("quadranta.eot?#iefix") format("embedded-opentype"), url("quadranta.svg#QuadrantaBold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  font-family: fedraserifB;
+    margin: 0;
+    padding: 0;}
+
+
+@mixin  linear-gradient($color1, $color2){
+    $color1 : rgb(168,168,168) ;
+    $color2 : rgb(255,150,0) ;}
+
+
+$width100: 100% ; 
+$width-logo : 25%; 
+$width-description : 100%; 
+
+
+$color-menu1a : #65537A ;
+$color-menu1b : #2A2333 ;
+$color-menu2a : #729EBF ;
+$color-menu2b : #333A40 ;
+$color-menu3a : #F6AD1A;
+$color-menu3b : #9F391A;
+$color-menu4a : #CFFF6A;
+$color-menu4b : #677F35; 
+$white:#fff;
+$black:#000;
+$forestgreen: #70A030;
+//$forestgreen:#01CA08; 
+
+.clear {
+  clear: both;
+  height: 0;
+  overflow: hidden; }
+h1 {
+    font-size: 2em;}
+h2 {
+    font-size: 1em;
+    width: 100%;
+    text-align: center;}
+
+img {
+    width: 100%;
+    height: auto;}
+.top {
+    background-color: $forestgreen;
+    display: block;
+    padding: 10px 10% 0 10%; 
+    height: 110px;}
+.ls {
+  text-align: right;
+  vertical-align: bottom;
+  font-size: 1,2em;}
+
+#header{
+    background-color: $forestgreen;}
+.header {
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid white;
+    width: 100%;
+    z-index: 8;}
+.section{
+    width: $width100;
+    padding: 5px 1%;}
+.date{
+    font-size: smaller;
+    padding: 2px 4px;
+}
+#professionnel a {
+    width: 12%;
+    float: left;
+display: inline-block;}
+#professionnel img{
+    display: block;
+}
+.description {
+    width: 88%;
+margin-left: 12%;
+font-size: medium;}
+.logo{
+    width: $width-logo;
+float: left;
+background-color: aqua;}
+
+.desc {
+    font-style: italic;
+    font-size: smaller;
+    padding: 1% 0 0 2%;}
+
+.cache{
+    display:none;
+}
+.cache div > ul > li {
+    font-size: 0.9em;
+}
+.cache div > ul > li > ul {
+    font-size: 0.8em;
+}
+
+.ligne100 {
+  width: 100%;}
+
+.colonne100 {
+  width: 100%;
+  padding: 5px 5%; }
+
+.colonne50 {
+    display: inline-block;
+  width: 50%;
+  float: left;
+  text-align: justify; }
+
+.colonne50 > ul {padding: 0 0 0 15px;}
+.colonne50 > ul > li > ul {padding: 0 0 0 20px;}
+
+.colonne50l {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    text-align: justify; }
+
+.colonne50r {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    text-align: justify; }
+
+
+.colonne33 {
+  width: 33.33%;
+  float: left; }
+.colonne33 img{
+    max-width: 100%;
+    height: auto;
+    right:0;
+    top:0;
+}
+.colonne66 {
+  width: 66.66%;
+  float: left; }
+
+footer {
+    height: 30px;
+    background-color: $forestgreen;
+}
+.menu-demo2, .menu-demo2 ul{
+padding:0;
+margin:0;
+list-style:none;
+text-align:center;
+}
+.menu-demo2 li{
+display:inline-block;
+position:relative;
+border-radius:8px 8px 0 0;
+}
+.menu-demo2 ul li{
+display:inherit;
+border-radius:0;
+}
+.menu-demo2 ul li:last-child{
+border-radius:0 0 8px 8px;
+}
+.menu-demo2 ul{
+position:absolute;
+z-index: 1000;
+max-height:0;
+left: 0;
+right: 0;
+overflow:hidden;
+-moz-transition: .8s all .3s;
+-webkit-transition: .8s all .3s;
+transition: .8s all .3s;
+}
+.menu-demo2 li:hover ul{
+max-height:15em;
+}
+/* background des liens menus */
+.menu-demo2 li:first-child{
+background-color: $color-menu1a;
+background-image:-webkit-linear-gradient(top, $color-menu1a 0%, $color-menu1b 100%);
+background-image:linear-gradient(to bottom, $color-menu1a 0%, $color-menu1b 100%);
+}
+.menu-demo2 li:nth-child(2){
+background-color: $color-menu2a;
+background-image: -webkit-linear-gradient(top, $color-menu2a 0%, $color-menu2b 100%);
+background-image:linear-gradient(to bottom, $color-menu2a 0%, $color-menu2b 100%);
+}
+.menu-demo2 li:nth-child(3){
+background-color: $color-menu3a;
+background-image:-webkit-linear-gradient(top, $color-menu3a 0%, $color-menu3b 100%);
+background-image:linear-gradient(to bottom, $color-menu3a 0%, $color-menu3b 100%);
+}
+.menu-demo2 li:last-child{
+background-color: $color-menu4a;
+background-image:-webkit-linear-gradient(top, $color-menu4a 0%, $color-menu4b 100%);
+background-image:linear-gradient(to bottom, $color-menu4a 0%, $color-menu4b 100%);
+}
+/* background des liens sous menus */
+.menu-demo2 li:first-child li{
+background:$color-menu1b;
+}
+.menu-demo2 li:nth-child(2) li{
+background:$color-menu2b;
+}
+.menu-demo2 li:nth-child(3) li{
+background:$color-menu3b;
+}
+.menu-demo2 li:last-child li{
+background:$color-menu4b;
+}
+/* background des liens menus et sous menus au survol */
+.menu-demo2 li:first-child:hover, #menu-demo2 li:first-child li:hover{
+background:$color-menu1a;
+}
+.menu-demo2 li:nth-child(2):hover, #menu-demo2 li:nth-child(2) li:hover{
+background:$color-menu2a;
+}
+.menu-demo2 li:nth-child(3):hover, #menu-demo2 li:nth-child(3) li:hover{
+background:$color-menu3a;
+}
+.menu-demo2 li:last-child:hover, #menu-demo2 li:last-child li:hover{
+background:$color-menu4a;
+}
+/* les a href */
+.menu-demo2 a{
+text-decoration:none;
+display:block;
+padding:8px 32px;
+color:$white;
+font-family:arial;
+}
+.menu-demo2 ul a{
+padding:8px 0;
+}
+.menu-demo2 li:hover li a{
+color:$white;
+text-transform:inherit;
+}
+.menu-demo2 li:hover a, #menu-demo2 li li:hover a{
+color:$black;
+}

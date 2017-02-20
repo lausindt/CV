@@ -1,0 +1,293 @@
+/* line 1, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+* {
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: 'quadranta';
+  src: url("quadranta.eot");
+  src: url("quadranta.otf") format("truetype"), url("quadranta.woff") format("woff"), url("quadranta.eot?#iefix") format("embedded-opentype"), url("quadranta.svg#QuadrantaBold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 9, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+body {
+  font-family: fedraserifB;
+  margin: 0;
+  padding: 0; }
+
+/* line 38, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.clear {
+  clear: both;
+  height: 0;
+  overflow: hidden; }
+
+/* line 42, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+h1 {
+  font-size: 2em; }
+
+/* line 44, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+h2 {
+  font-size: 1em;
+  width: 100%;
+  text-align: center; }
+
+/* line 49, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+img {
+  width: 100%;
+  height: auto; }
+
+/* line 52, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.top {
+  background-color: #70A030;
+  display: block;
+  padding: 10px 10% 0 10%;
+  height: 110px; }
+
+/* line 57, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.ls {
+  text-align: right;
+  vertical-align: bottom;
+  font-size: 1,2em; }
+
+/* line 62, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+#header {
+  background-color: #70A030; }
+
+/* line 64, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.header {
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid white;
+  width: 100%;
+  z-index: 8; }
+
+/* line 70, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.section {
+  width: 100%;
+  padding: 5px 1%; }
+
+/* line 73, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.date {
+  font-size: smaller;
+  padding: 2px 4px; }
+
+/* line 77, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+#professionnel a {
+  width: 12%;
+  float: left;
+  display: inline-block; }
+
+/* line 81, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+#professionnel img {
+  display: block; }
+
+/* line 84, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.description {
+  width: 88%;
+  margin-left: 12%;
+  font-size: medium; }
+
+/* line 88, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.logo {
+  width: 25%;
+  float: left;
+  background-color: aqua; }
+
+/* line 93, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.desc {
+  font-style: italic;
+  font-size: smaller;
+  padding: 1% 0 0 2%; }
+
+/* line 98, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.cache {
+  display: none; }
+
+/* line 101, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.cache div > ul > li {
+  font-size: 0.9em; }
+
+/* line 104, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.cache div > ul > li > ul {
+  font-size: 0.8em; }
+
+/* line 108, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.ligne100 {
+  width: 100%; }
+
+/* line 111, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.colonne100 {
+  width: 100%;
+  padding: 5px 5%; }
+
+/* line 115, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.colonne50 {
+  display: inline-block;
+  width: 50%;
+  float: left;
+  text-align: justify; }
+
+/* line 121, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.colonne50 > ul {
+  padding: 0 0 0 15px; }
+
+/* line 122, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.colonne50 > ul > li > ul {
+  padding: 0 0 0 20px; }
+
+/* line 124, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.colonne50l {
+  display: inline-block;
+  width: 50%;
+  float: left;
+  text-align: justify; }
+
+/* line 130, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.colonne50r {
+  display: inline-block;
+  width: 50%;
+  float: left;
+  text-align: justify; }
+
+/* line 137, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.colonne33 {
+  width: 33.33%;
+  float: left; }
+
+/* line 140, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.colonne33 img {
+  max-width: 100%;
+  height: auto;
+  right: 0;
+  top: 0; }
+
+/* line 146, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.colonne66 {
+  width: 66.66%;
+  float: left; }
+
+/* line 150, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+footer {
+  height: 30px;
+  background-color: #70A030; }
+
+/* line 154, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.menu-demo2, .menu-demo2 ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center; }
+
+/* line 160, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.menu-demo2 li {
+  display: inline-block;
+  position: relative;
+  border-radius: 8px 8px 0 0; }
+
+/* line 165, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.menu-demo2 ul li {
+  display: inherit;
+  border-radius: 0; }
+
+/* line 169, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.menu-demo2 ul li:last-child {
+  border-radius: 0 0 8px 8px; }
+
+/* line 172, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.menu-demo2 ul {
+  position: absolute;
+  z-index: 1000;
+  max-height: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  -moz-transition: .8s all .3s;
+  -webkit-transition: .8s all .3s;
+  transition: .8s all .3s; }
+
+/* line 183, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.menu-demo2 li:hover ul {
+  max-height: 15em; }
+
+/* background des liens menus */
+/* line 187, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.menu-demo2 li:first-child {
+  background-color: #65537A;
+  background-image: -webkit-linear-gradient(top, #65537A 0%, #2A2333 100%);
+  background-image: linear-gradient(to bottom, #65537A 0%, #2A2333 100%); }
+
+/* line 192, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.menu-demo2 li:nth-child(2) {
+  background-color: #729EBF;
+  background-image: -webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
+  background-image: linear-gradient(to bottom, #729EBF 0%, #333A40 100%); }
+
+/* line 197, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.menu-demo2 li:nth-child(3) {
+  background-color: #F6AD1A;
+  background-image: -webkit-linear-gradient(top, #F6AD1A 0%, #9F391A 100%);
+  background-image: linear-gradient(to bottom, #F6AD1A 0%, #9F391A 100%); }
+
+/* line 202, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.menu-demo2 li:last-child {
+  background-color: #CFFF6A;
+  background-image: -webkit-linear-gradient(top, #CFFF6A 0%, #677F35 100%);
+  background-image: linear-gradient(to bottom, #CFFF6A 0%, #677F35 100%); }
+
+/* background des liens sous menus */
+/* line 208, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.menu-demo2 li:first-child li {
+  background: #2A2333; }
+
+/* line 211, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.menu-demo2 li:nth-child(2) li {
+  background: #333A40; }
+
+/* line 214, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.menu-demo2 li:nth-child(3) li {
+  background: #9F391A; }
+
+/* line 217, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.menu-demo2 li:last-child li {
+  background: #677F35; }
+
+/* background des liens menus et sous menus au survol */
+/* line 221, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.menu-demo2 li:first-child:hover, #menu-demo2 li:first-child li:hover {
+  background: #65537A; }
+
+/* line 224, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.menu-demo2 li:nth-child(2):hover, #menu-demo2 li:nth-child(2) li:hover {
+  background: #729EBF; }
+
+/* line 227, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.menu-demo2 li:nth-child(3):hover, #menu-demo2 li:nth-child(3) li:hover {
+  background: #F6AD1A; }
+
+/* line 230, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.menu-demo2 li:last-child:hover, #menu-demo2 li:last-child li:hover {
+  background: #CFFF6A; }
+
+/* les a href */
+/* line 234, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.menu-demo2 a {
+  text-decoration: none;
+  display: block;
+  padding: 8px 32px;
+  color: #fff;
+  font-family: arial; }
+
+/* line 241, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.menu-demo2 ul a {
+  padding: 8px 0; }
+
+/* line 244, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.menu-demo2 li:hover li a {
+  color: #fff;
+  text-transform: inherit; }
+
+/* line 248, /Users/Spoke/GitHub/CV/formationstyle3.scss */
+.menu-demo2 li:hover a, #menu-demo2 li li:hover a {
+  color: #000; }
+
+/*# sourceMappingURL=formationstyle3.css.map */
